@@ -1,4 +1,4 @@
-## The Big Cat Classifier
+## The Big Cats Classifier
 
 I have always had a problem in recognizing big cats especially to differentiate cheetah's, leopard's, tigers. I was learning the FastAI v2 by reading the book and wondered why not build a classifier for this end-to-end, deploy this and see how the model performs.
 

@@ -1,0 +1,1 @@
+web: voila --port=$PORT --no-browser --enable_nbextensions=True notebooks/The_Big_Cats_Classifier _Inference_Setup.ipynb

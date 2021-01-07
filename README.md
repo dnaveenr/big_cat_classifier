@@ -6,7 +6,7 @@ Upload an image of one of the Big Cat and determine which category the big cat b
 Image data is retrieved using the Bing Image Search API.
 
 #### Side Note
-I have always had a problem in recognizing big cats, so I thought of building a classifier using FastAI as part of my learning from the FastAI book.
+*I have always had a problem in recognizing big cats, so I thought of building a classifier using FastAI as part of my learning from the FastAI book.*
 
 ### Categories the Classifier can predict :
 1. Cheetah

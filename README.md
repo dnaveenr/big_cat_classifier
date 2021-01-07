@@ -1,7 +1,14 @@
 ## The Big Cats Classifier
 
-I have always had a problem in recognizing big cats especially to differentiate cheetah's, leopard's, tigers. I was learning the FastAI v2 by reading the book and wondered why not build a classifier for this end-to-end, deploy this and see how the model performs.
+The term "big cat" is typically used to refer to any of the five living members of the genus Panthera, namely the tiger, lion, jaguar, leopard, and snow leopard, as well as the non-pantherine cheetah and cougar.
 
+Upload an image of one of the Big Cat and determine which category the big cat belongs to. The model is trained using FastAI with backbone of Resnet18 architecture.
+Image data is retrieved using the Bing Image Search API.
+
+#### Side Note
+I have always had a problem in recognizing big cats, so I've build a classifier using FastAI as part of my learning from the FastAI book.
+
+### Categories the Classifier can predict :
 1. Cheetah
 1. Cougar
 1. Jaguar
@@ -10,5 +17,8 @@ I have always had a problem in recognizing big cats especially to differentiate 
 1. Snow leopard
 1. Tiger
 
+### Results
 
-The tiger and lion are comparitively easier to identify but lets see how the model performs and hopefully help me in recognizing these Big Cats better.
+The model gets an accuracy of 91% on the validation set, the model does get confused between the leopard and jaugar categories.
+
+

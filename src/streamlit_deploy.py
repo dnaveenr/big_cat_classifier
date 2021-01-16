@@ -23,7 +23,7 @@ def predict_img(img):
 "Here's the [GitHub](https://github.com/dnaveenr/big_cat_classifier) repo"
 'Upload a picture of a Big Cat and determine which category it belongs to.'
 
-learner_inf = load_learner('../models/big_cat_classifier.pkl)
+learner_inf = load_learner("../models/big_cat_classifier.pkl")
 
 # Upload
 pic = st.file_uploader("Upload Image File")

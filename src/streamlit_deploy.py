@@ -37,7 +37,7 @@ pred = 'n/a'
 # Display image
 if pic is not None:
     img = load_image(pic)
-    st.image(img)
+    st.image(img, use_column_width=True)
 
     # Parse image
     pil_img = PILImage.create(pic)
@@ -47,5 +47,7 @@ if pic is not None:
 
 # Classify
 if st.button('Classify'):
-    'Prediction: ', pred
-    'Probability: ', str(round(probs[pred_idx].item(), 3))
+    'Predicted as ', pred
+    'Probability of ', str(round(probs[pred_idx].item(), 3))
+
+"Note : Probability greater than 90% indicates a confident guess whereas a lower probability indicates the model is not very sure of the guess. :)"

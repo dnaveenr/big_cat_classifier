@@ -28,7 +28,6 @@ learner_inf = load_learner("./big_cat_classifier.pkl")
 # Upload
 pic = st.file_uploader("Upload Image File")
 
-'Click Classify'
 
 probs = []
 pred_idx = 1
@@ -45,9 +44,11 @@ if pic is not None:
     # Predict category
     pred, pred_idx, probs = predict_img(pil_img)
 
+'Click Classify'
+
 # Classify
 if st.button('Classify'):
     'Predicted as ', pred
-    'Probability of ', str(round(probs[pred_idx].item(), 3))
+    'Probability of ', str(round(probs[pred_idx].item(), 3) * 100), '%'
 
 "Note : Probability greater than 90% indicates a confident guess whereas a lower probability indicates the model is not very sure of the guess. :)"

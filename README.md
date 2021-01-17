@@ -1,5 +1,7 @@
 ## The Big Cats Classifier
 
+![Big Cats](./images/big_cats_classifier.jpg)
+
 The term "big cat" is typically used to refer to any of the five living members of the genus Panthera, namely the tiger, lion, jaguar, leopard, and snow leopard, as well as the non-pantherine cheetah and cougar.
 
 Upload an image of one of the Big Cat and determine which category the big cat belongs to. The model is trained using FastAI with backbone of Resnet18 architecture.

@@ -25,8 +25,8 @@ The model gets an accuracy of 91% on the validation set, the model does get conf
 
 ### Live Demo
 
-The model is deployed using StreamLit Sharing.  You can try it out here :
-https://share.streamlit.io/dnaveenr/big_cat_classifier/main/src/streamlit_deploy.py
+The model is deployed using StreamLit Sharing.  You can try it out here :  
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dnaveenr/big_cat_classifier/main/src/streamlit_deploy.py)
 
 ### References 
 

@@ -23,4 +23,12 @@ Image data is retrieved using the Bing Image Search API.
 
 The model gets an accuracy of 91% on the validation set, the model does get confused between the leopard and jaguar categories.
 
+### Live Demo
 
+The model is deployed using StreamLit Sharing.  You can try it out here :
+https://share.streamlit.io/dnaveenr/big_cat_classifier/main/src/streamlit_deploy.py
+
+### References 
+
+1. FastAI [Book](https://course.fast.ai/).
+2. Streamlit deployment is inspired from [here](https://github.com/jacKlinc/covid_mask_classifier).
